@@ -4,7 +4,10 @@ game.resources = [
 	 * @example
 	 * {name: "example", type:"image", src: "data/img/example.png"},
 	 */
-        
+        {name: "player", type:"image", src: "data/img/player.png"},
+        {name: "enemy", type:"image", src: "data/img/enemy1.png"},
+        {name: "elite-enemy", type:"image", src: "data/img/enemy2.png"},
+        {name: "dreaded-enemy", type:"image", src: "data/img/enemy3.png"},
         
 	/* Atlases 
 	 * @example
