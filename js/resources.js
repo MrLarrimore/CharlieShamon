@@ -4,10 +4,14 @@ game.resources = [
 	 * @example
 	 * {name: "example", type:"image", src: "data/img/example.png"},
 	 */
-        {name: "player", type:"image", src: "data/img/player.png"},
+        {name: "player", type:"image", src: "data/img/player01.png"},
         {name: "enemy", type:"image", src: "data/img/enemy1.png"},
         {name: "elite-enemy", type:"image", src: "data/img/enemy2.png"},
         {name: "dreaded-enemy", type:"image", src: "data/img/enemy3.png"},
+        {name: "Stage 1", type:"image", src: "data/img/Stage 1.jpg"},
+        {name: "Stage 2", type:"image", src: "data/img/Stage 2.jpg"},
+        {name: "upgradeScreen", type:"image", src: "data/img/upgradeScreen.jpg"},
+        {name: "gameOverScreen", type:"image", src: "data/img/gameOverScreen.jpg"}
         
 	/* Atlases 
 	 * @example
