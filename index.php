@@ -1,8 +1,7 @@
 <!DOCTYPE HTML>
-<<<<<<< HEAD
-=======
+
 <?php?>
->>>>>>> 5426d6a327cbcd6d9b8b141b9093d96fbc5639c0
+
 <html>
 	<head>
 		<title>melonJS Template</title>
@@ -15,19 +14,17 @@
         <link rel="apple-touch-icon" sizes="76x76" href="icons/touch-icon-ipad-76x76.png">
         <link rel="apple-touch-icon" sizes="120x120" href="icons/touch-icon-iphone-retina-120x120.png">
         <link rel="apple-touch-icon" sizes="152x152" href="icons/touch-icon-ipad-retina-152x152.png">
-<<<<<<< HEAD
-=======
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
->>>>>>> 5426d6a327cbcd6d9b8b141b9093d96fbc5639c0
 	</head>
 	<body>
 		<!-- Canvas placeholder -->
 		<div id="screen"></div>
-<<<<<<< HEAD
 
-=======
+
+
                 
                 <form id="input" method="post">
                     <div class="field">
@@ -45,7 +42,7 @@
                     <button type="button" id="mainmenu">Main Menu</button>
                 </form>
                 
->>>>>>> 5426d6a327cbcd6d9b8b141b9093d96fbc5639c0
+
 		<!-- melonJS Library -->
 		<!-- build:js js/app.min.js -->
 		<script type="text/javascript" src="lib/melonJS-1.1.0-min.js"></script>
@@ -56,13 +53,16 @@
 		<!-- Game Scripts -->
 		<script type="text/javascript" src="js/game.js"></script>
 		<script type="text/javascript" src="js/resources.js"></script>
-<<<<<<< HEAD
+
 
 		<script type="text/javascript" src="js/entities/entities.js"></script>
 		<script type="text/javascript" src="js/entities/HUD.js"></script>
 
 		<script type="text/javascript" src="js/screens/title.js"></script>
 		<script type="text/javascript" src="js/screens/play.js"></script>
+                <audio autoplay loop>
+                    <source src="data/bgm/Corneria.mp3" type="audio/mpeg">
+                </audio>
 		<!-- /build -->
 		<!-- Bootstrap & Mobile optimization tricks -->
 		<script type="text/javascript">
@@ -92,7 +92,7 @@
 		</script>
 	</body>
 </html>
-=======
+
                 <script type="text/javascript" src="js/entities/boss.js"></script>
                 <script type="text/javascript" src="js/entities/enemy.js"></script>
                 <script type="text/javascript" src="js/entities/player.js"></script>
@@ -104,4 +104,4 @@
 		<!-- /build -->
         </body>
 </html>
->>>>>>> 5426d6a327cbcd6d9b8b141b9093d96fbc5639c0
+

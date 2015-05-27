@@ -8,12 +8,12 @@ game.TitleScreen = me.ScreenObject.extend({
                 me.game.world.addChild(new (me.Renderable.extend({
                     init: function(){
                       this._super(me.Renderable, 'init', [270, 240, 300, 50]);  
-                      this.font = new me.Font("Arial", 46, "white");
+                      this.font = new me.Font("Arial", 46, "red");
                       me.input.registerPointerEvent('pointerdown', this, this.newGame.bind(this), true);
                     },
                     
                     draw: function(renderer){
-                        this.font.draw(renderer.getContext(), "START A NEW GAME :D :D", this.pos.x, this.pos.y);
+                        this.font.draw(renderer.getContext(), "Start New Mission", this.pos.x, this.pos.y);
                     },
                     
                     update: function(dt){
@@ -29,12 +29,12 @@ game.TitleScreen = me.ScreenObject.extend({
                 me.game.world.addChild(new (me.Renderable.extend({
                     init: function(){
                       this._super(me.Renderable, 'init', [380, 340, 250, 50]);  
-                      this.font = new me.Font("Arial", 46, "white");
+                      this.font = new me.Font("Arial", 46, "red");
                       me.input.registerPointerEvent('pointerdown', this, this.newGame.bind(this), true);
                     },
                     
                     draw: function(renderer){
-                        this.font.draw(renderer.getContext(), "CONTINUE??? M8?", this.pos.x, this.pos.y);
+                        this.font.draw(renderer.getContext(), "Continue?", this.pos.x, this.pos.y);
                     },
                     
                     update: function(dt){
